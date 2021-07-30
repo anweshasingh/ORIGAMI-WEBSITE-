@@ -1,0 +1,111 @@
+.menu{ /*everything undercontrol*/
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb #e8ec1d;
+}
+
+
+h1 { /* heading*/
+    color: rgb(255, 0, 191);
+}
+h3{ /*followus link*/
+    font-size: 20px;
+}
+
+
+.header h1{ /*heading */
+    background-color: bisque;
+    display:flex ;
+    justify-content:space-between;
+}
+
+
+body{ /*body*/
+    background-color: bisque;
+}
+.bodyimg{ /*background*/
+    position: relative;
+}
+.bodyimg p{ /* something is written on the img*/
+    color: hotpink;
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.bodyimg h3{ /*more things written on img*/
+    color: rgb(57, 9, 168);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+img *{ /*for curve border*/
+        border-radius: 20px;
+        border: 2px solid black;
+        padding: 20px; 
+        width: 100px;
+        height: 150px;  
+      }
+.grid{ /* origami things*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    padding: 150px;
+    background-color: rgb(211, 255, 249);
+}
+.origami{ /*origami points*/
+    border-radius: 20px;
+    background-color: rgb(211, 255, 249);
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+
+.Origami{
+    position: relative;
+}
+.Origami h3{
+ opacity: 0;
+ position: absolute;
+ top: 50%;
+ right: 50%;
+ transform: translate(-50%, -50%);
+}
+.Origami:hover h3{ /*text go vanish*/
+    opacity: 1;
+    color: red;
+}
+.Origami:hover img{ /* image go vainsh*/
+opacity: 0.3;
+}
+
+
+
+a:link{ /*click on link*/
+    color: hotpink;
+}
+a:visited{ /*link color changes*/
+    color: peru
+}
+
+
+
+/* about me*/
+.tex h2{
+    color: midnightblue;
+   }
+   .abouth1 h1{
+       color: rgb(238, 47, 26);
+   }
